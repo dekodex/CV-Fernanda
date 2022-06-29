@@ -1,4 +1,5 @@
 
+
 body{
   margin: 0;
   padding-top: 0;
@@ -17,6 +18,9 @@ h2 {
 
 h3 {
   font-family: 'Montserrat'
+}
+.bodyp {
+  font-size: 2.5rem;
 }
 .top-container {
 
@@ -37,7 +41,7 @@ h3 {
 
 }
 .profile-photo {
-  border-radius: 100%;
+  border-radius: 45%;
   width: 250px;
 }
 .intro {
@@ -61,18 +65,20 @@ h3 {
 }
 
 .skillrow {
-  margin: 100px auto 300px auto;
+  margin: 100px auto 350px auto;
   width: 50%;
   text-align: left;
 }
 
 .skillfoto1 {
+  border-radius: 20%;
+  border: solid black;
   float: left;
   width: 300px;
-  border: solid black;
   margin-right: 20px;
 }
 .skillfoto2 {
+  border-radius: 20%;
   float: right;
   margin-left: 20px;
   width: 300px;
